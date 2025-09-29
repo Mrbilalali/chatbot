@@ -8,8 +8,6 @@ It aims to mimic ChatGPT's interface and functionality.
 
 All conversations are stored locally on your device.
 
-See a [demo](https://twitter.com/mckaywrigley/status/1636103188733640704).
-
 ![Chatbot UI](./public/screenshot.png)
 
 ## Updates
@@ -49,31 +47,11 @@ Modify the sidebar interface in `components/Sidebar`.
 
 Modify the system prompt in `utils/index.ts`.
 
-## Deploy
-
-**Vercel**
-
-Host your own live version of Chatbot UI with Vercel.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmckaywrigley%2Fchatbot-ui)
-
-**Replit**
-
-Fork Chatbot UI on Replit [here](https://replit.com/@MckayWrigley/chatbot-ui-pro?v=1).
-
 **Docker**
 
 ```shell
 docker build -t chatgpt-ui .
 docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 chatgpt-ui
-```
-
-## Running Locally
-
-**1. Clone Repo**
-
-```bash
-git clone https://github.com/mckaywrigley/chatbot-ui.git
 ```
 
 **2. Install Dependencies**
